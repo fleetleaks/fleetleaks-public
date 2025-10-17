@@ -32,6 +32,7 @@ Most sanctions trackers are static lists or commercial services locked behind pa
 
 ### 📰 **AI-Powered News Pipeline**
 - Monitors 30+ Google Alerts feeds in multiple languages
+- Hybrid AI: OpenAI (GPT-4o-mini) for editorial review, Ollama (Llama 3.2) for vessel extraction
 - LLM-based relevance scoring (shadow fleet operations, price cap violations, STS transfers)
 - Automated publishing at 8 AM, 2 PM, 8 PM daily
 - Cross-links vessel mentions to IMO profiles
@@ -77,7 +78,7 @@ Built as a public resource for journalists, researchers, and compliance teams. N
 **Key components:**
 - **`sanctions_pipeline.py`**: Core scraper + aggregator (Python 3.11+, runs via cron)
 - **WordPress plugins**: Custom vessel post type, map shortcodes, REST endpoints
-- **`news_pipeline.py`**: LLM-powered article discovery + publishing (Ollama + Llama 3.2)
+- **`news_pipeline.py`**: Hybrid AI article pipeline (OpenAI GPT-4o-mini + Ollama Llama 3.2)
 - **Front-end**: Block theme + custom CSS (no framework bloat)
 
 ---
