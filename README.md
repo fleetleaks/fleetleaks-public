@@ -85,7 +85,7 @@ Built as a public resource for journalists, researchers, and compliance teams. N
 
 ## 📊 Current Dataset
 
-- **792 vessels** actively tracked
+- **815 vessels** actively tracked
 - **6 sanctioning authorities** (OFAC, EU, UK, Canada, Australia, New Zealand)
 - **Daily refresh** ensures data is never >24 hours stale
 - **AIS coverage**: ~85% of vessels broadcasting within last 30 days
